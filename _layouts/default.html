@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  
+  <body>
+    <div class="min-h-screen min-w-full flex flex-col items-center py-8 p-4" dir="ltr">
+      <div class="bg-white dark:bg-slate-800 antialiased post">
+        <main class="bg-white dark:bg-slate-800 antialiased post">
+          {{ content }}
+        </main>
+     </div>
+      
+      {% include footer.html %}
+
+    </div>
+
+    <!-- Prism.js -->
+    <script src="https://npmcdn.com/prismjs@1.5.1/prism.js"></script>
+    
+    
+  </body>
+
+</html>
