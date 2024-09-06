@@ -13,7 +13,7 @@ short_description: 写作很可爱。
         
    <div class="attachment-gallery attachment-gallery--4">
      <figure class="attachment attachment--preview flex-col justify-center attachment--jpg">
-          <img srcset="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc2VMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b0d12eb918a2695af20325e3bb842afa065ea450/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUVHa0NBQXc2Q25OaGRtVnlld1k2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--556deb252b4ed95e4b10b8bc1ed8e2d68a7b2d43/20240817-P8170097.jpg 2x" loading="lazy" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc2VMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b0d12eb918a2695af20325e3bb842afa065ea450/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld1k2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--77b85d2deaa725665407f11c49ec672491c1f59c/20240817-P8170097.jpg">
+          <img srcset="/images/web/passion.jpg 2x" loading="lazy" src="/images/web/passion.jpg">
       </figure>
     </div>
 
