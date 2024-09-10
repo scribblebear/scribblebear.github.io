@@ -10,13 +10,14 @@ permalink: message
 <style>
   body {
     background-color: #fff;
-    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+    font-family: 'Helvetica Rounded', Arial, sans-serif;
+    
   }
   .chat {
-    max-width: 410px;
+    max-width: 400px;
 		padding: 0 20px;
-		width: 100%;
-		margin:10vh auto 6vh auto;
+		width: auto;
+		margin:10vh auto auto auto;
     border-radius: 10px;
     flex-direction: column; /* 消息垂直排列 */
   }
@@ -32,7 +33,7 @@ permalink: message
 		gap: 4px;
   }
   .message-left {
-    background-color: #d8d8d8;
+    background-color: #ebe9e9;
     float: left;
     align-self: flex-start;
     margin-left: 0;
@@ -40,7 +41,7 @@ permalink: message
 		/* 左边顶变平宽 border-top-left-radius: 0;*/
   }
   .message-right {
-    background-color: #00FF00;
+    background-color: #28d00e;
     color: white;
     float: right;
     align-self: flex-end;
@@ -64,6 +65,17 @@ permalink: message
   
 </style>
 </head>
+<body>
+  <div class="chat">
+    <div class="message message-left">
+      <div class="message-content">
+        📌 👋 Hey! This is Orgma text.Just like iMessage chatting by blogging!
+        <a href='/' style="color: #eecf46;">Back home</a>
+      </div>
+      <div class="message-date">00:00PM</div>
+    </div>
+  </div>
+</body>
 <body>
 <div class="chat">
   <div class="message message-left">
