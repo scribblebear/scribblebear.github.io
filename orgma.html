@@ -13,10 +13,11 @@ permalink: message
     font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   }
   .chat {
-    max-width: 500px;
-    margin: 10px auto;
+    max-width: 460px;
+		padding: 0 20px;
+		width: 100%;
+		margin:10vh auto 6vh auto;
     border-radius: 10px;
-    padding: 20px;
     flex-direction: column; /* 消息垂直排列 */
   }
   .message {
@@ -27,17 +28,24 @@ permalink: message
     padding:5px;
     word-wrap: break-word;
     display: flex; /* 左右分布对其 */
+    flex-direction: column;
+		gap: 4px;
   }
   .message-left {
     background-color: #d8d8d8;
     float: left;
     align-self: flex-start;
+    margin-left: 0;
+		margin-right: auto;
+		/* 左边顶变平宽 border-top-left-radius: 0;*/
   }
   .message-right {
     background-color: #007aff;
     color: white;
     float: right;
     align-self: flex-end;
+    margin-left: auto;
+		margin-right: 0;
   }
   .message-date {
     text-align: right;
