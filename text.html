@@ -1,0 +1,228 @@
+---
+permalink: textmessage
+---
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Chat Text to</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<style type="text/css">
+		:root {
+			--font-primary: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+			--text-primary: rgba(0, 0, 0, 1);
+			--text-secondary: rgba(0, 0, 0, .5);
+			--bg-primary: #ffffff;
+			--bg-secondary: #f5f5f5;
+			--border: rgba(0, 0, 0, 0.1);
+			--font-size-regular: 16px;
+			--font-size-large: 20px;
+			--font-size-small: 14px;
+		}
+		:root body.dark-mode {
+			--text-primary: rgba(255, 255, 255, 1);
+			--text-secondary: rgba(255, 255, 255, .5);
+			--bg-primary: #161616;
+			--bg-secondary: #1c1c1c;
+			--border: rgba(255, 255, 255, 0.1);
+		}
+		*, *::before, *::after {
+			box-sizing: border-box;
+			list-style: none;
+			font-synthesis: none;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+		body {
+			line-height: 1.4;
+			letter-spacing: -.03em;
+			padding: 0;
+			margin: 0;
+			scroll-behavior: smooth;
+			-webkit-text-size-adjust: 100%;
+			font-family: var(--font-primary);
+			background: var(--bg-primary);
+			color: var(--text-primary);
+		}
+		.container {
+			max-width: 460px;
+			padding: 0 20px;
+			width: 100%;
+			margin: 10vh auto 6vh auto;
+		}
+		.message-group {
+			display: flex;
+			flex-direction: column;
+			gap: 6px;
+		}
+		.bubble {
+			border-radius: 24px;
+			padding: 12px 20px;
+			width: fit-content;
+			font-size: var(--font-size-regular);
+			background: var(--bg-secondary);
+			opacity: 0;
+			transition: opacity 1s ease;
+		}
+		.bubble.left {
+			margin-left: 0;
+			margin-right: auto;
+      border-top-left-radius: 0;
+		}
+		.bubble.right {
+			border-top-left-radius: 24px;
+      border-top-right-radius: 0;
+		}
+		.bubble.right + .bubble.right, .bubble.left + .bubble.left   {
+			border-radius: 24px;
+		}
+		.bubble.right {
+			margin-left: auto;
+			margin-right: 0;
+			background: #1c1c1c;
+			color: #ffffff;
+		}
+		.avatar {
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			margin: 10px 0;
+		}
+		.avatar__img {
+			height: 24px;
+			width: 24px;
+			border-radius: 24px;
+			overflow: hidden;
+		}
+		.avatar__name {
+			font-size: var(--font-size-small);
+			color: var(--text-secondary);
+			line-height: 24px;
+		}
+		a {
+			text-decoration: none;
+			color: #06c;
+		}
+		.single-image {
+			width: 70%;
+			display: block;
+			padding: 16px 0;
+			margin: 0;
+			position: relative;
+			opacity: 0;
+			transition: opacity 1s ease;
+		}
+		.single-image img {
+			width: 100%;
+			display: block;
+			height: auto;
+			border-radius: 24px;
+			overflow: hidden;
+		}
+		.single-image figcaption {
+			width: 100%;
+			display: block;
+			margin-top: 8px;
+			font-size: var(--font-size-small);
+			color: var(--text-secondary);
+			padding-left:24px;
+			position: relative;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+		.single-image figcaption:before {
+			content: "";
+			height: 2px;
+			width: 16px;
+			border-radius: 2px;
+			background: var(--border);
+			left: 0;
+			top: 10px;
+			position: absolute;
+		}
+		.single-image__link {
+			position: absolute;
+			top: 45%;
+			right: -50px;
+			height: 40px;
+			width: 40px;
+			border-radius: 40px;
+			border: 1px solid var(--border);
+			text-align: center;
+			line-height: 38px;
+			transition: border ease 0.2s;
+		}
+		.single-image__link:hover {
+			border-color: #06c;
+		}
+		.interstitial {
+			font-size: var(--font-size-small);
+			color: var(--text-secondary);
+			margin: 32px 0;
+			text-align: center;
+			opacity: 0;
+			transition: opacity 1s ease;
+		}
+		.visible {
+			opacity: 1;
+		}
+
+	</style>
+
+</head>
+
+<!-- BODY -->
+<body class="">
+
+<div class="container">
+	<div class="avatar">
+		<a href="/" class="logo-link ">
+		 <img src="/images/logo.jpg" class="avatar__img">
+		</a>
+	</div>
+	<div class="message-group">
+		<div class="bubble left">&#128075; Hi there</div>
+		<div class="bubble left">📌 👋 Hey! This is Orgma text.Just like iMessage chatting by blogging!<a href='/' style="color: #eecf46;">Back home</a></div>
+	</div>
+	<div class="interstitial">00:00 PM</div>
+	<div class="message-group">
+		<div class="bubble right">When you experience life and career,<br> many things change.</div>
+		<div class="bubble right">Trying to refocus and cope with stress <br> will make you feel calmer and more focused.</div>
+		<figure class="single-image">
+			<img src="/images/web/cloud.jpg">
+			<figcaption>Sun in my life, Cloud</figcaption>
+			<a href="/box" class="single-image__link" target="_blank">&#8599;</a>
+		</figure>
+	</div>
+	<div class="interstitial">24/1/1 13:00 PM</div>
+	<div class="message-group">
+		<div class="bubble left">Remember: with great power comes great responsabilities</div>
+		<div class="bubble left">Cheers</div>
+		<div class="bubble left">&#129305;</div>
+	</div>
+</div>
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+const targets = document.querySelectorAll('.bubble, .interstitial, .single-image');
+
+const observer = new IntersectionObserver(
+  entries => {
+    entries.forEach(entry => {
+      entry.target.classList.toggle("visible", entry.isIntersecting)
+    })
+  },
+  { threshold: .2}
+);
+
+targets.forEach( target => {
+  observer.observe(target)
+});
+</script>

@@ -9,7 +9,7 @@ permalink: box
           <article class>
                <a class="link dt w-100 bb b--black-10 ph0-ns pt1 pb2 pv2-ns mb1 mb0-ns dim note-selected-item measure-wide" href="/box/hi">
                    <div class="dtc w4">
-                      <img src="/images/web/mynote.jpg" width="150" height="150">
+                      <img src="/images/web/dev.jpg" width="150" height="150">
                   </div>
                   <div class="dtc v-top pl2 pl3-ns">
                        <h5 style="color:#000000" class="f5 f5-ns fw4 mv0 mb1-ns">
