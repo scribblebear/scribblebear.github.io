@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Dark MoMo</title>
+ <link href="/atom.xml" rel="self"/>
+ <link href="https://getpoole.com/"/>
+ <updated>2025-04-17T20:29:30+08:00</updated>
+ <id>https://getpoole.com</id>
+ <author>
+   <name>MoMo</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>无用社交媒体</title>
+   <link href="https://getpoole.com/2020/04/04/introduction/"/>
+   <updated>2020-04-04T00:00:00+08:00</updated>
+   <id>https://getpoole.com/2020/04/04/introduction</id>
+   <content type="html">&lt;p&gt;无用社交媒体📺。
+沉迷于社交媒体，就像人沉迷于香烟一样。
+我不是一个沉重的社交媒体用户（或吸烟者）。
+我知道是聪明的媒体会让我拴在上面，我知道它正在剥夺我的时间，但它每天都和我在一起，我仍然在它上面花费了时间和精力。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>不能放弃努力</title>
+   <link href="https://getpoole.com/2020/04/03/options/"/>
+   <updated>2020-04-03T00:00:00+08:00</updated>
+   <id>https://getpoole.com/2020/04/03/options</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;努力研究无聊的重复性的东西是坏事&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;以我的经验，努力工作从来都不是只上班或“忙于”赚钱或拥有多份工作。有一百万种工作，你根本无法从中学到任何东西。&lt;/p&gt;
+
+&lt;p&gt;因此，30多岁的人更要注意，关于倦怠和工作场所界限的警告。如果你没有学到任何东西，不要为无聊的人和事全天候工作。&lt;/p&gt;
+
+&lt;p&gt;你可能会因为走得太快而筋疲力尽，因为你不让自己在愚蠢的事项上花费愚蠢的时间来满足你的智力好奇心。&lt;/p&gt;
+
+&lt;p&gt;小心这两个结果：培养你对你想坚持的事情的热情。&lt;/p&gt;
+
+&lt;p&gt;在各自领域出色的人往往通过非常努力来达到这个地位。如果你能弄清楚一件事，有些只对你上司有利的繁忙工作与让你作为一个人感到自己正在进步并变得更加熟练的工作之间的区别，那么你就准备好学习了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;人不能没有上进心&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>冥想空白</title>
+   <link href="https://getpoole.com/2020/04/02/example-content/"/>
+   <updated>2020-04-02T00:00:00+08:00</updated>
+   <id>https://getpoole.com/2020/04/02/example-content</id>
+   <content type="html">&lt;p&gt;今天我特别想说一下这个冥想。一直以来，我们都在空白冥想，无非是极点的延伸，比如想象、幻想、意想等，都是冥想的衍射。&lt;/p&gt;
+
+&lt;p&gt;作为一个博客爱折腾的人来说，我从2年前就在构思博客、品牌、写作内容等，经历了wordpress+腾讯云轻量服务器，博客暂未成型，购买却到期了，只能改变策略。&lt;/p&gt;
+
+&lt;p&gt;使用了静态博客后，发现更新的数据安全性和私有性。&lt;/p&gt;
+
+&lt;p&gt;但是有个缺陷，拿着手机怎么更新呢？？这一点需要特别关注。&lt;/p&gt;
+
+&lt;p&gt;冥想之后，为品牌起名为『bear。&lt;/p&gt;
+
+&lt;p&gt;目前的主题还在研究，还在冥想，希望下次能采用cargo打造一个更加简洁，一目了然的博客主题，作为bear的空间延伸。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>什么是过度疲劳?</title>
+   <link href="https://getpoole.com/2020/03/01/whats-jekyll/"/>
+   <updated>2020-03-01T00:00:00+08:00</updated>
+   <id>https://getpoole.com/2020/03/01/whats-jekyll</id>
+   <content type="html">&lt;p&gt;相信大家每天的生活可能就是这三个状态：焦虑的日常、美好的夜晚、懒散的周末&lt;/p&gt;
+
+&lt;p&gt;「过度疲劳」这个词大家并不陌生，压力让我们更快地工作和生活，最终难免出现这种情况。&lt;/p&gt;
+
+&lt;p&gt;看样子，我们还在这个世界中沉浮，努力地进行下去。&lt;/p&gt;
+
+&lt;p&gt;就像我最近三个月以来的状态，晚上明明很困，但进入自主睡眠却很难，明明白天没那么多事，却仍然很困、疲劳。&lt;/p&gt;
+
+&lt;p&gt;这篇文章只是想阐述一些想法。&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
